@@ -43,13 +43,13 @@
 						{invoice.total || '$0.00'}
 					</td>
 					<td class="px-6 py-4">
-						{invoice.date_sent || ''}
+						{invoice.sent_at || ''}
 					</td>
 					<td class="px-6 py-4">
-						{invoice.date_due || ''}
+						{invoice.due_at || ''}
 					</td>
 					<td class="px-6 py-4">
-						{invoice.date_paid || ''}
+						{invoice.paid_at || ''}
 					</td>
 					<td class="px-6 py-4">
 						<svg
