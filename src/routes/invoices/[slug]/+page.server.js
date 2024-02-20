@@ -10,6 +10,7 @@ export function load({ params }) {
 				state: 'NY',
 				zip: '12345'
 			},
+			company: 'Test Company',
 			slug: 'tstcpy',
 			phone: '123-456-7890',
 			email: 'email@email.com'
@@ -24,9 +25,9 @@ export function load({ params }) {
 			}
 		],
 		total: '$200.00',
-		date_created: '1/1/2020',
-		date_sent: '1/1/2020',
-		date_due: '1/2/2020',
-		date_paid: null
+		created_at: '1/1/2020',
+		sent_at: '1/1/2020',
+		due_at: '1/2/2020',
+		paid_at: null
 	};
 }
